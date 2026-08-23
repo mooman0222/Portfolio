@@ -181,6 +181,28 @@ a {
   padding: 120px 24px 80px;
   position: relative;
   z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 560px;
+}
+
+.hero-photo {
+  flex-shrink: 0;
+}
+
+.hero-photo-img {
+  width: clamp(160px, 22vw, 240px);
+  height: clamp(160px, 22vw, 240px);
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--surface);
+  box-shadow: var(--shadow-hover), 0 0 0 4px var(--accent);
 }
 
 .hero-tag {
@@ -731,6 +753,18 @@ a {
 
   .hero-inner {
     padding-top: 120px;
+    flex-direction: column-reverse;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .hero-photo-img {
+    width: clamp(140px, 40vw, 180px);
+    height: clamp(140px, 40vw, 180px);
+  }
+
+  .hero-actions {
+    justify-content: center;
   }
 
   .ai-item {
