@@ -2,3 +2,4 @@
 *.Zone.Identifier
 dcase.png:Zone.Identifier
 profile.jpg:Zone.Identifier
+.githooks/
