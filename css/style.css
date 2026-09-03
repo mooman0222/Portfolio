@@ -580,6 +580,23 @@ a {
   margin-top: 8px;
 }
 
+.ai-figure {
+  grid-column: 2;
+  margin: 16px 0 0;
+}
+
+.ai-image {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.ai-caption {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 8px;
+}
+
 .work-card-media {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
