@@ -421,6 +421,53 @@ a {
   margin-bottom: 16px;
 }
 
+.work-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.work-badges .work-badge {
+  margin-bottom: 0;
+}
+
+.work-badge-wip {
+  color: #92400e;
+  background: #fef3c7;
+  border: 1px solid rgba(146, 64, 14, 0.3);
+}
+
+.work-title-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.work-app-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.work-links {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+
+.work-screenshots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.work-screenshots .work-image {
+  margin-bottom: 0;
+}
+
 .work-title {
   font-size: 1.35rem;
   font-weight: 900;
